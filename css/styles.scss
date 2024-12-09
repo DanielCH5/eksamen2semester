@@ -18,3 +18,47 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
+
+.navigation{
+	background-color: grey;
+	display: flex;
+	justify-content: center;
+}
+
+.navi-logo{
+	display: flex;
+	justify-content: center;
+}
+
+.navi-menuer{
+	display: none;
+}
+.hero{
+	background-color: pink;
+}
+.heroindhold{
+	display: grid;
+	margin: 0px 30px 0px 30px;
+}
+
+h1{
+	font-size: 46px;
+}
+h6{
+	font-size: 15px;
+}
+.cta{
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	margin-top: 40px;
+	margin-bottom: 64px;
+}
+.knap{
+	background-color: green;
+	text-align: center;
+	border-radius: 8px;
+	padding: 10px 0 10px 0;
+	align-items: center;
+	font-size: 15px;
+	color: white;
+}
