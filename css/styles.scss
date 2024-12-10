@@ -100,7 +100,7 @@ h6{
 	
 }
 .overskrifter1{
-	margin: 56px 30px 24px 30px;
+	margin: 16px 30px 16px 30px;
 	
 }
 .contentcirkler{
@@ -169,7 +169,7 @@ h6{
 	flex-direction: column;
 }
 .bokse{
-	margin: 0 30px 64px 30px;
+	margin: 0px 30px 64px 30px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 20px;
@@ -187,18 +187,22 @@ h6{
 .boks1{
 	padding-bottom: 24px;
 }
+
 .bokstekst1{
-	margin: 24px 16px 0px 16px;
+	margin: 0px 16px 0px 16px;
+}
+.bokstekst2{
+	margin: 48px 16px 0px 16px;
 }
 .boksbillede{
 	display: flex;
 	z-index: 1;
-	position: absolute;padding-top: 240px ;flex-direction: row;
+	position: absolute;padding-top: 220px ;flex-direction: row;
 }
 .boksbillede1{
 	display: flex;
 	z-index: 1;
-	position: absolute;flex-direction: row;padding: 124px 0px 0px 200px;
+	position: absolute;flex-direction: row;padding: 72px 0px 0px 200px;
 }
 
 
