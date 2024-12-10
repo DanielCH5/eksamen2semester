@@ -73,12 +73,14 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	flex-direction: column;
 	padding-top: 12px;
 }
-.korttitel{
+
+.korttitel {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 }
-.minpenge{
+
+.minpenge {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
@@ -203,4 +205,32 @@ h6 {
 	position: absolute;
 	flex-direction: row;
 	padding: 72px 0px 0px 200px;
+}
+
+.opacity {
+	opacity: 0.5;
+}
+
+.takemethere {
+	margin: 24px 30px 24px 30px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.cta1 {
+	background-color: white;
+	padding: 10px 25px 10px 25px;
+	border-radius: 8px;
+	margin-right: 10px;
+}
+
+
+.arrow-right {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+
+	border-left: 20px solid grey;
 }
