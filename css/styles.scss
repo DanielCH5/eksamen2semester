@@ -35,21 +35,30 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 .navi-menuer{
 	display: none;
 }
-.hero{
-	background-color: pink;
+
+.herobillede{
+	display: flex;
+	justify-content: center;
+	margin: 0px 30px 0px 30px
 }
-.heroindhold{
-	display: grid;
-	padding: 0px 30px 0px 30px;
-	
-}
-.herocirkel{
-	background-color: hotpink;
-	height: 450px;
-	width: 100%;
-	clip-path: circle(50% at 165px 275px);
+.cta{
+	background-color: grey;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 30px;
+	border-radius: 8px;
+	padding: 18px;
 }
 
+.spise{
+	background-color: grey;
+	padding: 12px 0px 48px 0px;
+}
+.kort{
+	margin: 0px 30px;
+}
 
 h1{
 	font-size: 46px;
@@ -63,38 +72,7 @@ h3{
 h6{
 	font-size: 15px;
 }
-.cta{
-	display: grid;
-	grid-template-columns: 2fr 2fr;
-	margin-top: 40px;
-	margin-bottom: 64px;
-}
-.cta2{
-	display: grid;
-	grid-template-columns: 2fr 2fr;
-	margin-top: 24px;
-	margin-bottom: 64px;
-}
-.knap{
-	background-color: green;
-	text-align: center;
-	border-radius: 8px;
-	padding: 10px 0 10px 0;
-	align-items: center;
-	font-size: 15px;
-	color: white;
-}
-.herobillede{
-	display: grid;
-	grid-template-columns: 1fr 3fr;
-}
-.herobillede img{
-	width: 100%;
-}
-.herotekst{
-	margin-top: 125px;
-	
-}
+
 .overskrifter{
 	margin: 48px 30px 48px 30px;
 	
@@ -102,39 +80,6 @@ h6{
 .overskrifter1{
 	margin: 16px 30px 16px 30px;
 	
-}
-.contentcirkler{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	margin: 0px 30px 48px 30px;
-	gap: 20px;
-}
-.contentbillede{
-	border-radius: 50%;
-	z-index: -1;
-	background-color: grey;
-	width: 68px;
-	height: 68px;
-}
-.contentbillede img{
-	width: 100%;
-}
-.contentcirkel{
-	display: flex;
-	text-align: center;
-}
-.contentoverskrift{
-	display: flex;
-	z-index: 0;
-	position: absolute;
-	padding: 60px 0px 0px 2px;
-	text-align: center;
-}
-
-.events{
-	background-color: grey;
-	padding: 48px 30px 0px 30px;
-
 }
 .travlhverdag{
 	margin: 48px 30px 48px 30px;
