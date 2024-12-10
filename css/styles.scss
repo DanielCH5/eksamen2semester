@@ -99,6 +99,10 @@ h6{
 	margin: 48px 30px 48px 30px;
 	
 }
+.overskrifter1{
+	margin: 56px 30px 24px 30px;
+	
+}
 .contentcirkler{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -152,10 +156,49 @@ h6{
 	padding-top: 58px;
 }
 .videre{display: flex; flex-direction: row; align-items: center;margin-top: 24px;}
+.videre1{display: flex; flex-direction: row; align-items: center;margin: 24px 16px 24px 16px;
+}
 .play{
 	background-color: darkgrey;
 	border-radius: 8px;
 	padding: 4px 6px 7px 10px;
 	margin-right: 10px;
+}
+.budget{
+	display: flex;
+	flex-direction: column;
+}
+.bokse{
+	margin: 0 30px 64px 30px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+	
 
 }
+.boks1, .boks2{
+	background-color: grey;
+	display: flex;
+	flex-direction: column;
+	border-radius: 12px;
+	margin-top: 50px;
+	padding-top: 24px;
+}
+.boks1{
+	padding-bottom: 24px;
+}
+.bokstekst1{
+	margin: 24px 16px 0px 16px;
+}
+.boksbillede{
+	display: flex;
+	z-index: 1;
+	position: absolute;padding-top: 240px ;flex-direction: row;
+}
+.boksbillede1{
+	display: flex;
+	z-index: 1;
+	position: absolute;flex-direction: row;padding: 124px 0px 0px 200px;
+}
+
+
