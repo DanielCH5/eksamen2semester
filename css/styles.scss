@@ -19,7 +19,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // 5. Du kan lave styling her...
 
-.navigation{
+.navigation {
 	background-color: grey;
 	display: flex;
 	justify-content: center;
@@ -27,21 +27,22 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	align-items: center;
 }
 
-.navi-logo{
+.navi-logo {
 	display: flex;
 	justify-content: center;
 }
 
-.navi-menuer{
+.navi-menuer {
 	display: none;
 }
 
-.herobillede{
+.herobillede {
 	display: flex;
 	justify-content: center;
 	margin: 0px 30px 0px 30px
 }
-.cta{
+
+.cta {
 	background-color: grey;
 	display: flex;
 	flex-direction: row;
@@ -52,36 +53,65 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	padding: 18px;
 }
 
-.spise{
+.spise {
 	background-color: grey;
 	padding: 12px 0px 48px 0px;
 }
-.kort{
-	margin: 0px 30px;
+
+.korts {
+	margin: 24px 30px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	gap: 20px;
 }
 
-h1{
+.kort {
+	background-color: pink;
+	border-radius: 12px;
+	display: flex;
+	flex-direction: column;
+	padding-top: 12px;
+}
+.korttitel{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.minpenge{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+
+h1 {
 	font-size: 46px;
 }
-h2{
+
+h2 {
 	font-size: 35px;
 }
-h3{
+
+h3 {
 	font-size: 29px;
 }
-h6{
+
+h6 {
 	font-size: 15px;
 }
 
-.overskrifter{
+.overskrifter {
 	margin: 48px 30px 48px 30px;
-	
+
 }
-.overskrifter1{
+
+.overskrifter1 {
 	margin: 16px 30px 16px 30px;
-	
+
 }
-.travlhverdag{
+
+.travlhverdag {
 	margin: 48px 30px 48px 30px;
 	padding: 32px 24px 24px 24px;
 	display: flex;
@@ -89,39 +119,56 @@ h6{
 	background-color: grey;
 	border-radius: 12px;
 }
-.p-test{
-	
-}
-.travltekst{
+
+.p-test {}
+
+.travltekst {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
-.travlimg img{
+
+.travlimg img {
 	width: 100%;
 	padding-top: 58px;
 }
-.videre{display: flex; flex-direction: row; align-items: center;margin-top: 24px;}
-.videre1{display: flex; flex-direction: row; align-items: center;margin: 24px 16px 24px 16px;
+
+.videre {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 24px;
 }
-.play{
+
+.videre1 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 24px 16px 24px 16px;
+}
+
+.play {
 	background-color: darkgrey;
 	border-radius: 8px;
 	padding: 4px 6px 7px 10px;
 	margin-right: 10px;
 }
-.budget{
+
+.budget {
 	display: flex;
 	flex-direction: column;
 }
-.bokse{
+
+.bokse {
 	margin: 0px 30px 64px 30px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 20px;
-	
+
 
 }
-.boks1, .boks2{
+
+.boks1,
+.boks2 {
 	background-color: grey;
 	display: flex;
 	flex-direction: column;
@@ -129,25 +176,31 @@ h6{
 	margin-top: 50px;
 	padding-top: 24px;
 }
-.boks1{
+
+.boks1 {
 	padding-bottom: 24px;
 }
 
-.bokstekst1{
+.bokstekst1 {
 	margin: 0px 16px 0px 16px;
 }
-.bokstekst2{
+
+.bokstekst2 {
 	margin: 48px 16px 0px 16px;
 }
-.boksbillede{
+
+.boksbillede {
 	display: flex;
 	z-index: 1;
-	position: absolute;padding-top: 220px ;flex-direction: row;
+	position: absolute;
+	padding-top: 220px;
+	flex-direction: row;
 }
-.boksbillede1{
+
+.boksbillede1 {
 	display: flex;
 	z-index: 1;
-	position: absolute;flex-direction: row;padding: 72px 0px 0px 200px;
+	position: absolute;
+	flex-direction: row;
+	padding: 72px 0px 0px 200px;
 }
-
-
