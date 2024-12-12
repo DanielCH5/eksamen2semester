@@ -122,7 +122,6 @@ h6 {
 	border-radius: 12px;
 }
 
-.p-test {}
 
 .travltekst {
 	display: grid;
@@ -232,4 +231,15 @@ h6 {
 	border-top: 10px solid transparent;
 	border-bottom: 10px solid transparent;
 	border-left: 20px solid grey;
+}
+
+.app{
+	display: flex;
+	flex-direction: row;
+}
+.app img{
+	float: right;
+	align-self: center;
+	width: auto;
+	margin-right: 30px;
 }
