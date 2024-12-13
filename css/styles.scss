@@ -102,9 +102,11 @@ h3 {
 h6 {
 	font-size: 15px;
 }
-small{
+
+small {
 	font-size: 10px;
 }
+p{font-size: 12px;}
 
 .overskrifter {
 	margin: 48px 30px 48px 30px;
@@ -237,37 +239,104 @@ small{
 	border-left: 20px solid grey;
 }
 
-.app{
+.nyttigapp {
 	display: flex;
 	flex-direction: row;
 	margin: 48px 30px 48px 30px;
 
 }
-.app img{
+
+.nyttigapp img {
 	align-self: center;
 	width: 50%;
 }
-.events{
+
+.events {
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr 1fr;
 	gap: 16px;
 }
-.event{
+
+.event {
 	display: flex;
 	background-color: pink;
 	border-radius: 8px;
-	padding: 18px ;
+	padding: 18px;
 }
-.eventbilled{
+
+.eventbilled {
 	display: flex;
 	flex-direction: row;
 	margin-left: 20px;
 	justify-content: center;
 	align-items: center;
 }
-.eventbilled img{
+
+.eventbilled img {
 	width: 100%;
 }
-.eventoverskrift{
+
+.eventoverskrift {
 	margin-bottom: 32px;
+}
+
+.tipstricks {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 48px 30px;
+	gap: 20px;
+}
+
+.tipstricksbillede {
+	display: flex;
+	align-items: center;
+}
+
+.opbevaring {
+	background-color: #b9e4eb;
+}
+
+.opbevaringoverskrifter {
+	padding: 36px 30px;
+}
+
+.opbevaringslideshow {
+	display: flex;
+	justify-content: center;
+
+}
+
+.køleskab {
+	background-color: #abd43e;
+	width: 200px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	margin-bottom: 36px;
+}
+
+.appslinks{
+	margin: 48px 30px;
+}
+
+.appgruppe{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+
+.apps{
+	background-color: #154932;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #FAFAF8;
+	padding: 20px;
+
+}
+
+.nyttigoverskrift{
+	margin-bottom: 20px;
 }
