@@ -102,6 +102,9 @@ h3 {
 h6 {
 	font-size: 15px;
 }
+small{
+	font-size: 10px;
+}
 
 .overskrifter {
 	margin: 48px 30px 48px 30px;
@@ -112,6 +115,7 @@ h6 {
 	margin: 16px 30px 16px 30px;
 
 }
+
 
 .travlhverdag {
 	margin: 48px 30px 48px 30px;
@@ -236,10 +240,34 @@ h6 {
 .app{
 	display: flex;
 	flex-direction: row;
+	margin: 48px 30px 48px 30px;
+
 }
 .app img{
-	float: right;
 	align-self: center;
-	width: auto;
-	margin-right: 30px;
+	width: 50%;
+}
+.events{
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	gap: 16px;
+}
+.event{
+	display: flex;
+	background-color: pink;
+	border-radius: 8px;
+	padding: 18px ;
+}
+.eventbilled{
+	display: flex;
+	flex-direction: row;
+	margin-left: 20px;
+	justify-content: center;
+	align-items: center;
+}
+.eventbilled img{
+	width: 100%;
+}
+.eventoverskrift{
+	margin-bottom: 32px;
 }
