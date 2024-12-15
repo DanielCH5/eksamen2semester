@@ -502,3 +502,54 @@ p {
 .footerlink {
 	font-size: 10px;
 }
+
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	background-color: rgba(0, 128, 113, 0.94);
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 25px;
+	color: #FAFAF8;
+  }
+  .topmenu {
+	display: flex;
+	align-items: center;
+  }
+  .topmenu a{
+	padding: 0px 30px;
+	margin-left: 30px;
+	color: #FAFAF8;
+  }
+
+  .menulinks a {
+	padding: 20px 30px;
+	text-decoration: none;
+	color: #FAFAF8;
+	display: block;
+	transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+	color: $primary;
+  }
+  
+  .sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 0px;
+	font-size: 40px;
+  }
+
+  .menupunkt{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  .menupunkt p{
+	padding-top: 20px;
+  }

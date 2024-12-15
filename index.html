@@ -25,7 +25,7 @@
 			<a href="#">LogoTag</a>
 		</div>
 
-		<div class="udvid">
+		<div class="udvid" style="cursor:pointer" onclick="openNav()">
 			<div class="menuknap">
 				<div class="cirkel"></div>
 				<div class="cirkel"></div>
@@ -34,6 +34,59 @@
 		</div>
 	</div>
 
+	<div id="sideNav" class="sidenav">
+		<div class="topmenu">
+			<a href="index.html">Ta' det lettere</a>
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		</div>
+		<hr class="menulinje">
+		<div class="menulinks">
+
+			<a href="#">
+				<div class="menupunkt">
+					<img src="pics/nemtbilligt.png" alt="">
+					<p>Nemt og billigt</p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+						class="bi bi-arrow-right" viewBox="0 0 16 16">
+						<path fill-rule="evenodd"
+							d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+					</svg>
+				</div>
+			</a>
+			<a href="#">
+				<div class="menupunkt">
+					<img src="pics/tipstricks.png" alt="">
+					<p>Tips og tricks</p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+						class="bi bi-arrow-right" viewBox="0 0 16 16">
+						<path fill-rule="evenodd"
+							d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+					</svg>
+				</div>
+			</a>
+			<a href="#">
+				<div class="menupunkt">
+					<img src="pics/omos.png" alt="">
+					<p>Om os</p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+						class="bi bi-arrow-right" viewBox="0 0 16 16">
+						<path fill-rule="evenodd"
+							d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+					</svg>
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<script>
+		function openNav() {
+			document.getElementById("sideNav").style.width = "75%";
+		}
+
+		function closeNav() {
+			document.getElementById("sideNav").style.width = "0";
+		}
+	</script>
 	<div class="hero">
 		<div class="overskrifter">
 			<h1>Spar tid og spar penge! Ik' lad os hænge!</h1>
