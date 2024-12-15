@@ -3,6 +3,8 @@
 
 // 2. Include any default variable overrides here
 $link-decoration: none;
+$primary: #154932; //Ændrer primary farven i bootstrap til en grøn i stedet for den normale blå
+
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
@@ -10,7 +12,6 @@ $link-decoration: none;
 
 // 4. Include any default map overrides here
 $custom-colors: (
-	"farve": $cyan-400,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -18,22 +19,77 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
+body {
+	background-color: #FAFAF8;
+}
+
+h1 {
+	font-size: 46px;
+}
+
+h2 {
+	font-size: 35px;
+}
+
+h3 {
+	font-size: 29px;
+}
+
+h4 {
+	font-size: 23px;
+}
+
+h6 {
+	font-size: 15px;
+}
+
+small {
+	font-size: 10px;
+}
+
+p {
+	font-size: 12px;
+}
 
 .navigation {
-	background-color: grey;
-	display: flex;
-	justify-content: center;
+	background-color: #FAFAF8;
+	display: grid;
 	height: 66px;
-	align-items: center;
+	filter: drop-shadow(0 0 0.75rem #00000050);
+	//align-items: center;
+	//justify-content: space-evenly;
+	grid-template-columns: 1fr 2fr 1fr;
 }
 
 .navi-logo {
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
+	align-items: center;
 }
 
-.navi-menuer {
-	display: none;
+.udvid {
+	display: flex;
+	flex-direction: row;
+	justify-content: end;
+	align-items: center;
+	padding: 0 30px;
+
+
+}
+
+.menuknap {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.cirkel {
+	border-radius: 50%;
+	width: 5px;
+	height: 5px;
+	background-color: $primary;
+	margin-bottom: 2px;
 }
 
 .herobillede {
@@ -86,35 +142,15 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	justify-content: space-evenly;
 }
 
-
-h1 {
-	font-size: 46px;
-}
-
-h2 {
-	font-size: 35px;
-}
-
-h3 {
-	font-size: 29px;
-}
-
-h6 {
-	font-size: 15px;
-}
-
-small {
-	font-size: 10px;
-}
-p{font-size: 12px;}
-
 .overskrifter {
 	margin: 48px 30px 48px 30px;
+	color: $primary;
 
 }
 
 .overskrifter1 {
 	margin: 16px 30px 16px 30px;
+	color: $primary;
 
 }
 
@@ -292,7 +328,7 @@ p{font-size: 12px;}
 	align-items: center;
 }
 
-.opbevaring {
+.blåsektion {
 	background-color: #b9e4eb;
 }
 
@@ -316,17 +352,17 @@ p{font-size: 12px;}
 	margin-bottom: 36px;
 }
 
-.appslinks{
+.appslinks {
 	margin: 48px 30px;
 }
 
-.appgruppe{
+.appgruppe {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 20px;
 }
 
-.apps{
+.apps {
 	background-color: #154932;
 	border-radius: 8px;
 	display: flex;
@@ -337,6 +373,132 @@ p{font-size: 12px;}
 
 }
 
-.nyttigoverskrift{
+.nyttigoverskrift {
 	margin-bottom: 20px;
+}
+
+#målsætninger {
+	background-color: #ABD43E;
+	padding: 36px 30px;
+}
+
+#målsætningslideshow {
+	margin-top: 26px;
+}
+
+.målsætningslide {
+	background-color: #FAFAF8;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.målsætningbillede {
+	display: flex;
+	justify-content: center;
+}
+
+.socials {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 20px;
+	margin-top: 20px;
+}
+
+.socialsfooter {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 20px;
+	margin: 20px 0;
+}
+
+.social {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.instagrid {
+	padding: 0px 30px 50px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+
+
+}
+
+.gridboks img {
+	width: 100%;
+}
+
+.månedevents {
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+.månedunder {
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	margin-bottom: 10px;
+}
+
+.månedbillede img {
+	width: 100%;
+}
+
+.månedoverskrift {
+	display: flex;
+	align-items: center;
+}
+
+.eventgrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+
+.enkeltevent {
+	background-color: #FF66C4;
+	border-radius: 8px;
+	padding: 10px 10px 0;
+	color: #FAFAF8;
+}
+
+.eventdato {
+	display: flex;
+	flex-direction: row;
+}
+
+.eventdato img {
+	width: 100%;
+	padding-right: 5px;
+}
+
+.eventdato h6 {
+	padding-top: 5px;
+}
+
+.footer {
+	background-color: #008071;
+	padding: 30px;
+	color: #FFFFFF;
+}
+
+.footergrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+
+.footerflex {
+	display: flex;
+	flex-direction: column;
+	padding-top: 10px;
+	width: 100%;
+}
+
+.footerlink {
+	font-size: 10px;
 }
