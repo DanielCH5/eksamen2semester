@@ -553,3 +553,17 @@ p {
   .menupunkt p{
 	padding-top: 20px;
   }
+  .kampagne{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  }
+  .tarteletbillede{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+  }
+  .menusocials{
+	padding: 30px;
+  }
