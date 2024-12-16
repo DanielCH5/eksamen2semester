@@ -183,6 +183,14 @@ p {
 	padding: 32px 24px 24px 24px;
 	display: flex;
 	flex-direction: column;
+	background-color: #ABD43E;
+	border-radius: 12px;
+}
+.eventsektion {
+	margin: 48px 30px 48px 30px;
+	padding: 32px 24px 24px 24px;
+	display: flex;
+	flex-direction: column;
 	background-color: #B9E4EB;
 	border-radius: 12px;
 }
@@ -213,11 +221,18 @@ p {
 }
 
 .play {
-	background-color: darkgrey;
+	background-color: #ABD43E;
 	border-radius: 8px;
 	padding: 4px 6px 7px 10px;
 	margin-right: 10px;
 }
+.play1 {
+	background-color: #FF66C4;
+	border-radius: 8px;
+	padding: 4px 6px 7px 10px;
+	margin-right: 10px;
+}
+
 
 .budget {
 	display: flex;
@@ -235,7 +250,6 @@ p {
 
 .boks1,
 .boks2 {
-	background-color: grey;
 	display: flex;
 	flex-direction: column;
 	border-radius: 12px;
@@ -245,10 +259,15 @@ p {
 
 .boks1 {
 	padding-bottom: 24px;
+	background-color: #FF66C4;
+}
+.boks2{
+	background-color: #B9E4EB;
 }
 
 .bokstekst1 {
 	margin: 0px 16px 0px 16px;
+	color: #FAFAF8;
 }
 
 .bokstekst2 {
@@ -259,8 +278,9 @@ p {
 	display: flex;
 	z-index: 1;
 	position: absolute;
-	padding-top: 220px;
+	padding-top: 210px;
 	flex-direction: row;
+	padding-left: 25px;
 }
 
 .boksbillede1 {
@@ -268,7 +288,7 @@ p {
 	z-index: 1;
 	position: absolute;
 	flex-direction: row;
-	padding: 72px 0px 0px 200px;
+	padding: 72px 0px 0px 230px;
 }
 
 .opacity {
@@ -308,7 +328,6 @@ p {
 
 .nyttigapp img {
 	align-self: center;
-	width: 50%;
 }
 
 .events {
