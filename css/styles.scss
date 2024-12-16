@@ -99,7 +99,7 @@ p {
 }
 
 .cta {
-	background-color: grey;
+	background-color: #FF66C4;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -110,7 +110,7 @@ p {
 }
 
 .spise {
-	background-color: grey;
+	background-color: #008071;
 	padding: 12px 0px 48px 0px;
 }
 
@@ -123,7 +123,8 @@ p {
 }
 
 .kort {
-	background-color: pink;
+	background-color: #ABD43E;
+	color: $primary;
 	border-radius: 12px;
 	display: flex;
 	flex-direction: column;
@@ -135,6 +136,12 @@ p {
 	align-items: center;
 	flex-direction: column;
 }
+.kortbillede{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 
 .minpenge {
 	display: flex;
@@ -148,10 +155,26 @@ p {
 
 }
 
+.overskrifterhvid {
+	margin: 48px 30px 48px 30px;
+	color: #FAFAF8;
+
+}
+
 .overskrifter1 {
 	margin: 16px 30px 16px 30px;
 	color: $primary;
 
+}
+
+.overskrifter1hvid {
+	margin: 16px 30px 16px 30px;
+	color: #FAFAF8;
+
+}
+
+.overskrifter2 {
+	color: $primary;
 }
 
 
@@ -160,7 +183,7 @@ p {
 	padding: 32px 24px 24px 24px;
 	display: flex;
 	flex-direction: column;
-	background-color: grey;
+	background-color: #B9E4EB;
 	border-radius: 12px;
 }
 
@@ -257,6 +280,7 @@ p {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	color: #FAFAF8;
 }
 
 .cta1 {
@@ -272,7 +296,7 @@ p {
 	height: 0;
 	border-top: 10px solid transparent;
 	border-bottom: 10px solid transparent;
-	border-left: 20px solid grey;
+	border-left: 20px solid #008071;
 }
 
 .nyttigapp {
@@ -295,7 +319,8 @@ p {
 
 .event {
 	display: flex;
-	background-color: pink;
+	background-color: #FF66C4;
+	color: #FAFAF8;
 	border-radius: 8px;
 	padding: 18px;
 }
@@ -515,55 +540,61 @@ p {
 	transition: 0.5s;
 	padding-top: 25px;
 	color: #FAFAF8;
-  }
-  .topmenu {
+}
+
+.topmenu {
 	display: flex;
 	align-items: center;
-  }
-  .topmenu a{
+}
+
+.topmenu a {
 	padding: 0px 30px;
 	margin-left: 30px;
 	color: #FAFAF8;
-  }
+}
 
-  .menulinks a {
+.menulinks a {
 	padding: 20px 30px;
 	text-decoration: none;
 	color: #FAFAF8;
 	display: block;
 	transition: 0.3s;
-  }
-  
-  .sidenav a:hover {
+}
+
+.sidenav a:hover {
 	color: $primary;
-  }
-  
-  .sidenav .closebtn {
+}
+
+.sidenav .closebtn {
 	position: absolute;
 	top: 0;
 	right: 0px;
 	font-size: 40px;
-  }
+}
 
-  .menupunkt{
+.menupunkt {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-  }
-  .menupunkt p{
+}
+
+.menupunkt p {
 	padding-top: 20px;
-  }
-  .kampagne{
+}
+
+.kampagne {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-  }
-  .tarteletbillede{
+}
+
+.tarteletbillede {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-  }
-  .menusocials{
+}
+
+.menusocials {
 	padding: 30px;
-  }
+}
