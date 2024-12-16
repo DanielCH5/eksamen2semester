@@ -4,6 +4,9 @@
 // 2. Include any default variable overrides here
 $link-decoration: none;
 $primary: #154932; //Ændrer primary farven i bootstrap til en grøn i stedet for den normale blå
+$modal-header-border-color: $primary;
+$modal-footer-border-color: $primary;
+$secondary:#FF66C4;
 
 
 // 3. Include remainder of required Bootstrap stylesheets
@@ -414,6 +417,7 @@ p {
 	align-items: center;
 	color: #FAFAF8;
 	padding: 20px;
+	cursor: pointer;
 
 }
 
@@ -619,6 +623,7 @@ p {
 }
 
 .modal-content{
-	background-color: #008071;
+	background-color: #ABD43E;
+	color: $primary;
 	
 }
