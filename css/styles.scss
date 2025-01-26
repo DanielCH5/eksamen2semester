@@ -550,12 +550,14 @@ p {
 	background-color: #008071;
 	padding: 30px;
 	color: #FFFFFF;
+	padding-bottom: 50px;
 }
 
 .footergrid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 20px;
+
 }
 
 .footerflex {
