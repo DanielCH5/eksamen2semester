@@ -9,7 +9,7 @@ $modal-footer-border-color: $primary;
 $secondary: #FF66C4;
 $light: #FAFAF8;
 $turkis: #008071;
-$lysgrøn:#ABD43E;
+$lysgrøn: #ABD43E;
 $lysblå :#B9E4EB;
 
 
@@ -20,7 +20,6 @@ $lysblå :#B9E4EB;
 
 // 4. Include any default map overrides here
 $custom-colors: (
-
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -28,6 +27,13 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
+// <uniquifier>: Use a unique and descriptive class name
+
+
+
+*{
+	font-family: Roboto;
+}
 body {
 	background-color: $light;
 }
