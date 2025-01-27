@@ -21,6 +21,9 @@ $highlight: #acd43e70;
 
 // 4. Include any default map overrides here
 $custom-colors: (
+	"lysblå": $lysblå,
+	"turkis": $turkis,
+	"lysgrøn":$lysgrøn,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -28,7 +31,6 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
-// <uniquifier>: Use a unique and descriptive class name
 
 
 
@@ -149,6 +151,11 @@ p {
 	grid-template-rows: 1fr 1fr;
 	gap: 20px;
 }
+.korts2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
 
 .kort {
 	background-color: #ABD43E;
@@ -223,6 +230,14 @@ p {
 	flex-direction: column;
 	background-color: #B9E4EB;
 	border-radius: 12px;
+}
+.eventsektion2 {
+	margin: 48px 0px;
+	padding: 10px 24px 24px 24px;
+	display: flex;
+	flex-direction: column;
+	background-color: #B9E4EB;
+
 }
 
 
